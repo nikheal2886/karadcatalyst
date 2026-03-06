@@ -15,7 +15,7 @@ const clients = [
     id: 1,
     name: 'Reshagrantha',
     tagline: 'Bookstore & Cultural Space',
-    location: 'Karad, MH',
+    location: 'Pune, MH',
     accentColor: '#8B6F47',
     works: [
       {
@@ -49,7 +49,7 @@ const clients = [
     id: 2,
     name: 'Linesncurves.studio',
     tagline: 'Architecture & Interior Design',
-    location: 'Karad, MH',
+    location: 'Pune, MH',
     accentColor: '#b85c38',
     works: [
       {
