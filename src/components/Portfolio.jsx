@@ -14,7 +14,7 @@ const clients = [
   {
     id: 1,
     name: 'Reshagrantha',
-    tagline: 'Bookstore & Cultural Space',
+    tagline: 'Architectural Firm ',
     location: 'Pune, MH',
     accentColor: '#8B6F47',
     works: [
