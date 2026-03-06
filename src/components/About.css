@@ -1,0 +1,126 @@
+.about {
+  padding: 120px 0;
+}
+
+.about__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* Animate in */
+.about__left,
+.about__right {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about__right {
+  transition-delay: 0.15s;
+}
+
+.about--visible .about__left,
+.about--visible .about__right {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about__label {
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 20px;
+}
+
+.about__headline {
+  font-size: clamp(40px, 4vw, 58px);
+  line-height: 1.08;
+  color: var(--black);
+  margin-bottom: 40px;
+}
+
+.about__headline em {
+  font-style: italic;
+  color: var(--rust);
+}
+
+/* Image block */
+.about__image-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about__image-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.about__image-tag {
+  font-size: 0.65rem;
+  color: var(--stone);
+  letter-spacing: 0.06em;
+  font-style: italic;
+}
+
+/* Right side */
+.about__right {
+  padding-top: 60px;
+}
+
+.about__body {
+  font-size: 1.05rem;
+  color: var(--stone);
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.about__values {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-top: 1px solid var(--border);
+  padding-top: 40px;
+}
+
+.about__value {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.about__value-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--rust);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.about__value-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.about__value-desc {
+  font-size: 0.82rem;
+  color: var(--stone);
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .about__inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .about__right { padding-top: 0; }
+}
