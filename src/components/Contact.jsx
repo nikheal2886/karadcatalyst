@@ -62,7 +62,7 @@ export default function Contact() {
             <div className="contact__info">
               <div className="contact__info-item">
                 <span className="contact__info-label">Email</span>
-                <a href="mailto:hello@karadcatalyst.com" className="contact__info-value">
+                <a href="mailto:karadgroup9@gmail.com" className="contact__info-value">
                   karadgroup9@gmail.com
                 </a>
               </div>
