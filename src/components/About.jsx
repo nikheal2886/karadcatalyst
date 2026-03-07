@@ -39,8 +39,8 @@ export default function About() {
             </div>
           </div>
           <div className="about__right">
-            <p className="about__body">KaradCatalyst started with one simple belief — that local brands deserve world-class content. We're not aggregators of trending audio or recycled ideas. Every frame, every caption, every reel is built from scratch for your brand.</p>
-            <p className="about__body">In just two months of active work, we've helped businesses grow their social presence organically — no paid promotion, no shortcuts. Just strategy, creativity, and obsessive attention to how content makes people feel.</p>
+            <p className="about__body">KaradCatalyst started with one simple belief that local brands deserve world-class content. We're not aggregators of trending audio or recycled ideas. Every frame, every caption, every reel is built from scratch for your brand.</p>
+            <p className="about__body">In just two months of active work, we've helped businesses grow their social presence organically ,  no shortcuts. Just strategy, creativity, and obsessive attention to how content makes people feel.</p>
             <div className="about__values">
               {[
                 { label: 'Original First', desc: 'Every piece of content is created for you, not repurposed.' },
